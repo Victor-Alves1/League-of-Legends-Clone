@@ -1,0 +1,24 @@
+{
+  "name": "lol_champion",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev1": "nodemon src/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.7"
+  }
+}
