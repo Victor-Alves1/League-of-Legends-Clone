@@ -10,7 +10,6 @@ function App() {
 
   const [camp, setCamp]=useState([])
   const [nomes, setNomes]=useState([])
-  // const [fotos, setFotos]=useState([])
   let fotenhas=[]
   
   const basicFetch = async ()=>{
@@ -19,31 +18,25 @@ function App() {
     const dados = await dado.data
     setCamp(JSON.stringify(dados))
     setNomes(Object.keys(dados))
-    for(let i=0; i<=159; i++){
-    fotenhas.push(<img src={`http://ddragon.leagueoflegends.com/cdn/12.9.1/img/champion/${nomes[i]}.png`} alt="" />)}
 
-    // for(let i=0; i<=159; i++){
-    //   const newFoto = ()=> [ <img src={`http://ddragon.leagueoflegends.com/cdn/12.9.1/img/champion/${nomes[i]}.png`} alt="" />]
-    //   setFotos(newFoto) 
-    // }
-    
-    // console.log(fotos)
-    
-    return dados
-  } 
-
+    console.log(fotenhas)
+  }
     useEffect(()=>{
       basicFetch().catch(e=>console.log(e))
     },[])
-   
-  
     console.log(fotenhas)
+    // for(let i=0; i<=159; i++){
+    //   fotenhas.push(<img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nomes[i]}_0.jpg`} alt="" />)
+    // }
+    for(let i=0; i<=159; i++){
+      fotenhas.push(<img src={`http://ddragon.leagueoflegends.com/cdn/12.9.1/img/champion/${nomes[i]}.png`} alt="" />)
+    }
     
   return (
     <div className="App">
       
-      {/* {fotos} */}
-      {camp}
+      {fotenhas}
+      {/* {camp} */}
     </div>
   )
 }
