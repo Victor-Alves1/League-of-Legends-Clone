@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 10px 2vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 64vw;
+    color: #73736a;
+    /* Works on Firefox */
+    scrollbar-width: 8px;
+    scrollbar-color: #785a28;
+}
+  
+.container::-webkit-scrollbar {
+    /* Works on Chrome, Edge, and Safari */
+    width: 8px;
+} 
+.container::-webkit-scrollbar-thumb {
+    background-color: #785a28;
+    border-radius: 10px;
+  }
+.championBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.championBanner img{
+    width: 10vw;
+}

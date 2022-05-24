@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.App{
+    background-image: linear-gradient(#010a13 20%, #092b3a);
+    overflow-y: hidden;
+    display: flex;
+    height: 100vh;
+}
