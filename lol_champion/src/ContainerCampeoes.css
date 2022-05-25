@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .container{
     display: flex;
     gap: 10px 2vw;
@@ -10,6 +6,7 @@
     justify-content: center;
     overflow-y: scroll;
     width: 64vw;
+    height: 95vh;
     color: #73736a;
     /* Works on Firefox */
     scrollbar-width: 8px;

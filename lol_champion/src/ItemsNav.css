@@ -1,0 +1,15 @@
+.nav-bar{
+    display: flex;
+    gap: 2vw;
+    font-family: Lora;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #c6b78d;
+    text-transform: uppercase;
+    padding-left: 2.9vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.nav-bar span:hover{
+    color: #d7cfbe;
+}

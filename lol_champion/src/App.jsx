@@ -3,6 +3,7 @@
 import ContainerCampeoes from "./ContainerCampeoes"
 import AsideLeft from "./AsideLeft"
 import AsideRight from "./AsideRight"
+import ItemsNav from "./ItemsNav"
 import "./App.css"
 
 const apiJson= "http://ddragon.leagueoflegends.com/cdn/12.9.1/data/en_US/champion.json"
@@ -15,12 +16,22 @@ function App() {
   
     
   return (
-    <div className="App">
-      < AsideLeft />
-      < ContainerCampeoes />
-      < AsideRight />
+    <>
+      <nav>
+
+      </nav>
+      <main>
+        <div className="items">
+          <ItemsNav />
+          <div className="items-body">
+            < AsideLeft />
+            < ContainerCampeoes />
+          </div>
+        </div>
+        < AsideRight />
       
-    </div>
+      </main>
+    </>
   )
 }
 

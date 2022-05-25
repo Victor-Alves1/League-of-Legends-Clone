@@ -1,8 +1,7 @@
 .containerRight{
-    width: 17vw;
+    width: 19vw;
     background-color: #010a13;
     color: #a09b8c;
-    font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,6 +12,8 @@
     justify-content: space-between;
     text-transform: uppercase;
     padding: 10px;
+    font-family: Lora;
+    font-weight: 700;
 }
 .menu-icons{
     color: #c8aa6e;
@@ -23,18 +24,25 @@
     display: flex;
     gap: 2px;
     border-top: 2px solid #1e282d;
+    background-color: #020b14;
 }
 .footer-icons{
     display: flex;
     align-items: center;
     color: #cdbe91;
     background-color: #1e2328;
-    padding: 5px 10px;
+    padding: 1vh 0.7vw;
     border: 2px solid #c8aa6e;
 }
 .footer-icons:nth-child(4){
     flex: 1;
     justify-content: center;
     color: #3c3c36;
+    background-color: transparent;
     border: none;
+    font: Lora;
+    font-size: small;
+}
+.footer-icons:nth-child(5){
+    padding: 1vh 0.5vw;
 }
