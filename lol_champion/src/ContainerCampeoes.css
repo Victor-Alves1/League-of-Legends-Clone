@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    gap: 10px 2vw;
+    gap: 0px 2vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,33 @@
     flex-direction: column;
     align-items: center;
 }
-.championBanner img{
+.championPhotoAndMastery{
+    position: relative;
+}
+.championPhotoAndMastery img{
     width: 10vw;
+}
+.masteryLevel{
+    position: absolute;
+    box-sizing: content-box;
+    bottom: -2.5%;
+    left: -1.2vw;
+    z-index: 1;
+    fill: url(#my-cool-gradient) #447799;
+    height: 25%;
+    width: 5vw;
+}
+.mastery{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.championBanner span{
+    margin: 1vh;
 }

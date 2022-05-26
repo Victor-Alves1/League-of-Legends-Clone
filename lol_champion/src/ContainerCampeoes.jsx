@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { FireSimple, BookmarkSimple } from "phosphor-react"
 import "./ContainerCampeoes.css"
 
 const ContainerCampeoes = () => {
@@ -22,7 +23,14 @@ const ContainerCampeoes = () => {
     for(let i=0; i<=159; i++){
       fotenhas.push(
         <span className="championBanner">
-            <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nomes[i]}_0.jpg`} alt="" />
+            <div className="championPhotoAndMastery">
+              <BookmarkSimple weight="fill" className="masteryLevel"/>
+              <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nomes[i]}_0.jpg`} alt="" />
+              <div className="mastery">
+                <FireSimple className="FireIconMastery" size={20} weight="fill"/> 
+                <span>0</span>
+              </div>
+            </div>
             <span>{nomes[i]}</span>
         </span>
       )
@@ -31,7 +39,13 @@ const ContainerCampeoes = () => {
     //   fotenhas.push(<img src={`http://ddragon.leagueoflegends.com/cdn/12.9.1/img/champion/${nomes[i]}.png`} alt="" />)
     // }
     return (
-        <div className="container">
+      <div className="container">
+        <svg style={{width:0,height:0,position:"absolute"}} aria-hidden="true" focusable="false">
+          <linearGradient id="my-cool-gradient" x="0" x2="0" y="1" y2="1">
+            <stop offset="0%" stopColor="#28220f" />
+            <stop offset="100%" stopColor="#3d3011" />
+          </linearGradient>
+        </svg>
             {fotenhas}
         </div>    
     );
