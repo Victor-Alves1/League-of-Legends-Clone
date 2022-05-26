@@ -1,4 +1,40 @@
 .containerLeft{
     width: 15vw;
     padding-left:2.9vw;
+    padding-right: 2.9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+.mastery-numbers{
+    text-transform: uppercase;
+    color: #928e81;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 1.2px;
+    border: 2px solid #896f39;
+    border-radius: 10px; 
+    padding: 15px 0px;
+}
+.mastery-numbers h2{
+    background-image: linear-gradient(to bottom, #eed399, #896f39);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #cab17a;
+    font-size: 40pt;
+}
+.goals-reached-mastery{
+    margin: 10px 0px;
+}
+.containerLeft input, .containerLeft select{
+    background: transparent;
+    border: 2px solid #cab17a;
+    padding: 8px;
+    font-size: 12pt;
+    color: #a5a4a1;
+
+}
+
