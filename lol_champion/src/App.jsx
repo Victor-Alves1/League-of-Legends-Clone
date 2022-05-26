@@ -4,6 +4,7 @@ import ContainerCampeoes from "./ContainerCampeoes"
 import AsideLeft from "./AsideLeft"
 import AsideRight from "./AsideRight"
 import ItemsNav from "./ItemsNav"
+import Header from "./Header"
 import "./App.css"
 
 const apiJson= "http://ddragon.leagueoflegends.com/cdn/12.9.1/data/en_US/champion.json"
@@ -17,9 +18,9 @@ function App() {
     
   return (
     <>
-      <nav>
+      <Header>
 
-      </nav>
+      </Header>
       <main>
         <div className="items">
           <ItemsNav />

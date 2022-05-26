@@ -13,11 +13,32 @@ const AsideLeft = () => {
                 </div>
             </div>
             <input type="text" name="" id="" placeholder="Buscar"/>
+            
+                <label htmlFor="acquired-champions-checkmark" className="acquired-champions">
+                    <input type="checkbox" name="" id="acquired-champions-checkmark" />
+                    <span id="checkmark">✓</span> 
+                    Exibir desabilitadas
+                </label>
+            
             <select name="" id="">
+                <option value="">Todos os campeões</option>
+                <option value="">Posição mais popular</option>
+                <option value="">Função</option>
                 <option value="">Propriedade</option>
             </select>
             <select name="" id="">
-                <option value="">Marcos alcançados</option>
+                <option value="">
+                    Ordem alfabética &#9650;
+                </option>
+                <option value="">
+                    Maestria de campeões
+                </option>
+                <option value="">
+                    Marcos alcançados
+                </option>
+                <option value="">
+                    Baú disponível
+                </option>
             </select>
         </div>
     );

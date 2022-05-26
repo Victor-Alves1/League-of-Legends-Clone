@@ -6,7 +6,7 @@
     justify-content: center;
     overflow-y: scroll;
     width: 64vw;
-    height: 95vh;
+    height: 89vh;
     color: #73736a;
     /* Works on Firefox */
     scrollbar-width: 8px;
@@ -31,12 +31,15 @@
 }
 .championPhotoAndMastery img{
     width: 10vw;
+    height: 14.7vw;
+    object-fit: cover;
+    object-position: top;
 }
 .masteryLevel{
     position: absolute;
     box-sizing: content-box;
-    bottom: -2.5%;
-    left: -1.2vw;
+    bottom: -7%;
+    left: -1.4vw;
     z-index: 1;
     fill: url(#my-cool-gradient) #447799;
     height: 25%;
@@ -46,13 +49,17 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 20%;
-    background-color: rgba(0, 0, 0, 0.65);
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.77);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.mastery span{
+    transform: translateX(100%);
+    font-size: small;
+    color: #a09b8c;
+}
 .championBanner span{
     margin: 1vh;
 }

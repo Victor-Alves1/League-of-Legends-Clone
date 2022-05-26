@@ -1,0 +1,58 @@
+.magnum-header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #05111a;
+    box-sizing: border-box;
+    padding: 0 0 0 2.9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #cdbe91;
+    font-family: Lora;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3d4143;
+}
+.right-header{
+    display: flex;
+    gap: 30px;
+}
+.right-header span:hover, .inventory span:hover
+{
+    color: #d7cfbe;
+    cursor: pointer;
+}
+.user-data-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.inventory{
+    display: flex;
+    gap: 20px;
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.wallet-data{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px;
+}
+.riot-points-data{
+    color: #e3ba3d;
+}
+.blue-essence{
+    color: #0ac9e4;
+}
+.wallet-color-text{
+    color: #ddd6c1;
+}
+.user-informations{
+    width: 17vw;
+    height: 100px;
+}
+

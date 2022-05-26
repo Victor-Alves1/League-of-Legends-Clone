@@ -2,12 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 main{
     background-image: linear-gradient(#010a13 20%, #092b3a);
     overflow-y: hidden;
     display: flex;
-    height: 100vh;
+    height: 90vh;
     font-family: Roboto;
 }
 .items-body{

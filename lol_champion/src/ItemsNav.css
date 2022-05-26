@@ -2,8 +2,7 @@
     display: flex;
     gap: 2vw;
     font-family: Lora;
-    font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #c6b78d;
     text-transform: uppercase;
     padding-left: 2.9vw;
@@ -12,4 +11,5 @@
 }
 .nav-bar span:hover{
     color: #d7cfbe;
+    cursor: pointer;
 }
