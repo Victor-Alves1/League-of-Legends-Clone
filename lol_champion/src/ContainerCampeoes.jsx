@@ -20,7 +20,7 @@ const ContainerCampeoes = () => {
     },[])
     console.log()
 
-    for(let i=0; i<=159; i++){
+    for(let i=0; i<=158; i++){
       fotenhas.push(
         <span className="championBanner">
             <div className="championPhotoAndMastery">
