@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 main{
-    background-image: linear-gradient(#010a13 20%, #092b3a);
+    background-image: linear-gradient(#010a13 70%, #092b3a);
     overflow-y: hidden;
     display: flex;
     height: 90vh;

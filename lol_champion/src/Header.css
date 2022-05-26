@@ -7,19 +7,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #cdbe91;
+    color: #c9bea0;
     font-family: Lora;
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #3d4143;
 }
+.logo{
+    width: 45px;
+}
 .right-header{
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .right-header span:hover, .inventory span:hover
 {
-    color: #d7cfbe;
+    color: #c9bea0;
     cursor: pointer;
 }
 .user-data-nav{
@@ -42,12 +46,6 @@
     gap: 8px;
     margin-right: 20px;
 }
-.riot-points-data{
-    color: #e3ba3d;
-}
-.blue-essence{
-    color: #0ac9e4;
-}
 .wallet-color-text{
     color: #ddd6c1;
 }
@@ -55,4 +53,3 @@
     width: 17vw;
     height: 100px;
 }
-

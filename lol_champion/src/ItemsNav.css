@@ -3,13 +3,13 @@
     gap: 2vw;
     font-family: Lora;
     letter-spacing: 1.5px;
-    color: #c6b78d;
+    color: #c9bea0;
     text-transform: uppercase;
     padding-left: 2.9vw;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 .nav-bar span:hover{
-    color: #d7cfbe;
+    color: #dfd8ca;
     cursor: pointer;
 }

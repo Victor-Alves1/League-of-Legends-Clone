@@ -1,12 +1,14 @@
+import logo from "../images/logo.png"
 import "./Header.css"
-import { UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
+import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
 
 const Header = () => {
     return (
     <div className="magnum-header">
         <div className="right-header">
+            <img src={logo} alt="logo do league of legends" className="logo" />
             <span>jogar</span>
-            <span>!</span>
+            <WarningCircle size={32} weight="fill" color="#037a97"/>
             <span>Inicio</span>
             <span>TFT</span>
             <span>Clash</span>
@@ -15,33 +17,35 @@ const Header = () => {
             <div className="user-data-nav">
                 <div className="inventory">
                     <span>
-                        <UserCircle size={28} weight="fill" />
+                        <UserCircle size={32} weight="fill" />
                     </span>
                     <span>
-                        <Backpack size={28} weight="fill" />
+                        <Backpack size={32} weight="fill" />
                     </span>
                     <span>
-                        <Wrench size={28} weight="fill" />
+                        <Wrench size={32} weight="fill" />
                     </span>
                     <span>
-                        <HardDrives size={28} weight="fill" />
+                        <HardDrives size={32} weight="fill" />
                     </span>
                     <span>
-                        <Coins size={28} weight="fill" />
+                        <Coins size={32} weight="fill" />
                     </span>
                 </div>
                 <div className="wallet">
                     <span className="wallet-data">
                         <span className="wallet-data riot-points-data">
-                            <FlowerLotus size={20} weight="fill" />
+                            <FlowerLotus size={20} weight="fill" color="#e3ba3d"/>
                         </span>
                         <span className="wallet-color-text">1000</span>
                     </span>
                     <span className="wallet-data">
                         <span className="wallet-data blue-essence">
-                            <DiamondsFour size={20} weight="fill" />
+                            <DiamondsFour size={20} weight="fill" color="#0ac9e4"/>
                         </span>
-                        <span className="wallet-color-text">1000</span>
+                        <span className="wallet-color-text">
+                            1000
+                        </span>
                     </span>
                 </div>
                 <div className="user-informations">
