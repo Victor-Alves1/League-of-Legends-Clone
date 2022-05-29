@@ -3,7 +3,7 @@
 ## My version
 ![Vite App - Pessoal — Microsoft​ Edge 26_05_2022 17_06_59](https://user-images.githubusercontent.com/101835324/170575947-5c8ede81-cd96-4fea-9a3d-daad68579967.png)
 
-## A little video of the application
+## A small video of the App running
 https://user-images.githubusercontent.com/101835324/170592573-bc157626-d584-4c26-b012-d737411cc309.mp4
 
 
