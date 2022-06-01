@@ -8,33 +8,33 @@ const AsideRight = () => {
             <div className="menu-social">
                 Social
                 <div className="menu-icons">
-                    <UserPlus size={"1.2vw"} weight={"bold"}/>
-                    <FolderSimplePlus size={"1.2vw"} weight={"bold"}/>
-                    <ListDashes size={"1.2vw"} weight={"bold"}/>
-                    <MagnifyingGlass size={"1.2vw"} weight={"bold"}/>
+                    <UserPlus size={"1.2vw"} weight="fill"/>
+                    <FolderSimplePlus size={"1.2vw"} weight="fill"/>
+                    <ListDashes size={"1.2vw"} weight="bold"/>
+                    <MagnifyingGlass size={"1.2vw"} weight="bold"/>
                  </div>
             </div>
             <div className="right-footer">
                 <div className="footer-icons">
-                    <Chat size={"1.2vw"} />
+                    <Chat size={"1vw"} weight="fill"/>
                 </div>
                 <div className="footer-icons">
-                    <ClipboardText size={"1.2vw"} />
+                    <ClipboardText size={"1vw"} weight="fill"/>
                 </div>
                 <div onClick={()=>setmicrophoneON(!microphoneON)} className="footer-icons">
                     {
                         microphoneON == true
                         ?
-                        <Microphone size={"1.2vw"} />
+                        <Microphone size={"1vw"} weight="fill"/>
                         :
-                        <MicrophoneSlash size={"1.2vw"}  />
+                        <MicrophoneSlash size={"1vw"}  weight="fill"/>
                     }
                 </div>
                 <div className="footer-icons">
                     V12.9
                 </div>
                 <div className="footer-icons">
-                    <BugBeetle size={"1.2vw"} />
+                    <BugBeetle size={"1vw"} weight="fill"/>
                 </div>
             </div>
         </div>

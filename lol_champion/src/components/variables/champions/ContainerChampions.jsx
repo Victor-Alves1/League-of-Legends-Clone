@@ -1,31 +1,29 @@
 import { useEffect, useState } from "react"
 import { FireSimple, BookmarkSimple } from "phosphor-react"
-import "./ContainerCampeoes.css"
+import "./ContainerChampions.css"
 
-const ContainerCampeoes = () => {
-    const [camp, setCamp]=useState([])
-    const [nomes, setNomes]=useState([])
+const ContainerChampions = () => {
+    const [championData, setChampionData]=useState([])
+    const [champion, setChampion]=useState([])
     let fotenhas=[]
   
     const basicFetch = async ()=>{
         const req = await fetch ("http://ddragon.leagueoflegends.com/cdn/12.9.1/data/en_US/champion.json")
         const dado = await req.json()
         const dados = await dado.data
-        setCamp(JSON.stringify(dados))
-        setNomes(Object.keys(dados))
-        console.log()
+        setChampionData(JSON.stringify(dados))
+        setChampion(Object.keys(dados))
     }
     useEffect(()=>{
       basicFetch().catch(e=>console.log(e))
     },[])
-    console.log()
 
     for(let i=0; i<=158; i++){
       fotenhas.push(
         <span className="championBanner">
             <div className="championPhotoAndMastery">
               <BookmarkSimple weight="fill" className="masteryLevel"/>
-              <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nomes[i]}_0.jpg`} alt="" />
+              <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion[i]}_0.jpg`} alt="" />
               <div className="mastery">
                 <span>
                   <FireSimple className="FireIconMastery" size={16} weight="fill"/>
@@ -33,7 +31,7 @@ const ContainerCampeoes = () => {
                 <span>0</span>
               </div>
             </div>
-            <span>{nomes[i]}</span>
+            <span>{champion[i]}</span>
         </span>
       )
     }
@@ -53,4 +51,4 @@ const ContainerCampeoes = () => {
     );
 }
  
-export default ContainerCampeoes;
+export default ContainerChampions;

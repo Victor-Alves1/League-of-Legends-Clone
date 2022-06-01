@@ -1,4 +1,4 @@
-import logo from "../images/logo.png"
+import logo from "../../../images/logo.png"
 import "./Header.css"
 import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
 

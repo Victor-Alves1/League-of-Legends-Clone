@@ -1,5 +1,5 @@
-import "./AsideLeft.css"
-const AsideLeft = () => {
+import "./AsideLeftChampions.css"
+const AsideLeftChampions = () => {
     return (
         <div className="containerLeft">
             <div className="mastery-numbers">
@@ -44,4 +44,4 @@ const AsideLeft = () => {
     );
 }
  
-export default AsideLeft;
+export default AsideLeftChampions;
