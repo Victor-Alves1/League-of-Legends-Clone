@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 0px 2vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 64vw;
+    height: 89vh;
+    color: #73736a;
+    /* Works on Firefox */
+    scrollbar-width: 8px;
+    scrollbar-color: #785a28;
+}

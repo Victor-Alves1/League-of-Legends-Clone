@@ -11,7 +11,8 @@
     text-transform: uppercase;
     color: #928e81;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
+
     line-height: 1.1;
     letter-spacing: 1.2px;
     border: 1px solid #896f39;
@@ -24,7 +25,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #cab17a;
-    font-size: 40pt;
+    font-size: 4rem;
 }
 .goals-reached-mastery{
     margin: 10px 0px;
@@ -33,7 +34,6 @@
     background: transparent;
     border: 1px solid #785a28;
     padding: 8px;
-
     color: #9b9992;
     outline-offset: 0;
 }
@@ -73,3 +73,25 @@
     color: #aca9a1;;
 }
 
+.skins-acquired{
+    border: 2px solid #785a28;
+    border-radius: 100%;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    transform: translate(25%, -50%);
+    background-color: #020e1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skins-acquired p {
+    line-height: 1.3rem;
+}
+.margin-skins-acquired{
+    margin-top: 4.5vw;
+}
+.skins-type{
+    margin-top: 5vw;
+}

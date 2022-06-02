@@ -1,4 +1,4 @@
-import "./AsideLeftChampions.css"
+import "../AsideLeft.css"
 const AsideLeftChampions = () => {
     return (
         <div className="containerLeft">
