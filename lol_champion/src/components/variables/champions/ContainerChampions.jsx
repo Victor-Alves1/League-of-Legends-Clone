@@ -3,23 +3,25 @@ import { FireSimple, BookmarkSimple } from "phosphor-react"
 import "./ContainerChampions.css"
 
 const ContainerChampions = () => {
+
     const [championData, setChampionData]=useState([])
     const [champion, setChampion]=useState([])
-    let fotenhas=[]
   
     const basicFetch = async ()=>{
         const req = await fetch ("http://ddragon.leagueoflegends.com/cdn/12.9.1/data/en_US/champion.json")
         const dado = await req.json()
         const dados = await dado.data
-        setChampionData(JSON.stringify(dados))
-        setChampion(Object.keys(dados))
+        setChampionData(JSON.stringify(await dados))
+        setChampion(Object.keys(await dados))
     }
     useEffect(()=>{
       basicFetch().catch(e=>console.log(e))
     },[])
 
+    let splashArts=[]
+
     for(let i=0; i<=158; i++){
-      fotenhas.push(
+      splashArts.push(
         <span className="championBanner">
             <div className="championPhotoAndMastery">
               <BookmarkSimple weight="fill" className="masteryLevel"/>
@@ -46,7 +48,7 @@ const ContainerChampions = () => {
             <stop offset="100%" stopColor="#3d3011" />
           </linearGradient>
         </svg>
-            {fotenhas}
+            {splashArts}
         </div>    
     );
 }
