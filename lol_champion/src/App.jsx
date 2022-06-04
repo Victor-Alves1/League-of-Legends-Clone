@@ -1,9 +1,10 @@
-import ContainerChampions from "./components/variables/champions/ContainerChampions"
-import AsideLeftChampions from "./components/variables/champions/AsideLeftChampions"
+import ContainerChampions from "./sections/Inventory/variables/champions/ContainerChampions"
+import AsideLeftChampions from "./sections/Inventory/variables/champions/AsideLeftChampions"
 
-import AsideRight from "./components/fixed/AsideRight"
-import ItemsNav from "./components/fixed/ItemsNav"
-import Header from "./components/fixed/Header"
+import ItemsNav from "./sections/Inventory/inventory_fixed/ItemsNav"
+
+import AsideRight from "./sections/fixed/AsideRight"
+import Header from "./sections/fixed/Header"
 
 import "./App.css"
 import { useState } from "react"
