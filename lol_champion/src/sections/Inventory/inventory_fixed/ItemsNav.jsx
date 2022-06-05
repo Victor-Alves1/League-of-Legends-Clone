@@ -3,7 +3,6 @@ import AsideLeftChampions from "../variables/champions/AsideLeftChampions"
 import ContainerSkins from "../variables/skins/ContainerSkins"
 import AsideLeftSkins from "../variables/skins/AsideLeftSkins"
 
-import './ItemsNav.css'
 const ItemsNav = ({setAbaSelected}) => {
     
     return (

@@ -1,0 +1,5 @@
+.home-nav-list{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}

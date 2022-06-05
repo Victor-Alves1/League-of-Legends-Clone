@@ -1,40 +1,24 @@
-import ContainerChampions from "./sections/Inventory/variables/champions/ContainerChampions"
-import AsideLeftChampions from "./sections/Inventory/variables/champions/AsideLeftChampions"
-
-import ItemsNav from "./sections/Inventory/inventory_fixed/ItemsNav"
-
-import AsideRight from "./sections/fixed/AsideRight"
 import Header from "./sections/fixed/Header"
+import HomeBody from "./sections/HOME/homeBody"
+import AsideRight from "./sections/fixed/AsideRight"
+import bgHome from "../images/pride-banner-2022-ii.jpg"
 
-import "./App.css"
 import { useState } from "react"
+import "./App.css"
 
 function App() {
-  const [abaSelected, setAbaSelected] = useState(
-    <>
-      < AsideLeftChampions />
-      < ContainerChampions />
-    </>
-  )
+
+  const [headerNav, setHeaderNav] = useState(<HomeBody/>)
+  const [bg, setBg]=useState("bgHome")
     
   return (
-    <>
-      <Header>
-
-      </Header>
-      <main>
-        <div className="items">
-          <ItemsNav setAbaSelected={setAbaSelected}/>
-          <div className="items-body">
-            {
-              abaSelected
-            }
-          </div>
-        </div>
-        < AsideRight />
-      
-      </main>
-    </>
+    <div className="main"> 
+      <div id={bg}>
+        <Header setHeaderNav={setHeaderNav} setBg={setBg}/>
+        {headerNav}
+      </div>
+      < AsideRight />
+    </div>
   )
 }
 

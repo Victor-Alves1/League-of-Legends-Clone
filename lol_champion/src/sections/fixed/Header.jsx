@@ -1,15 +1,18 @@
-import logo from "../../../images/logo.png"
+import HomeBody from "../HOME/homeBody";
+import InventoryBody from "../Inventory/InventoryBody";
+
 import "./Header.css"
+import logo from "../../../images/logo.png"
 import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
 
-const Header = () => {
+const Header = ({setHeaderNav}) => {
     return (
     <div className="magnum-header">
         <div className="right-header">
             <img src={logo} alt="logo do league of legends" className="logo" />
             <span>jogar</span>
             <WarningCircle size={32} weight="fill" color="#037a97"/>
-            <span>Inicio</span>
+            <span onClick={()=>{setHeaderNav(<HomeBody/>), setBg(bgHome)}}>Inicio</span>
             <span>TFT</span>
             <span>Clash</span>
         </div>
@@ -19,7 +22,7 @@ const Header = () => {
                     <span>
                         <UserCircle size={32} weight="fill" />
                     </span>
-                    <span>
+                    <span onClick={()=>{setHeaderNav(<InventoryBody/>), setBg(bgDefault)}}>
                         <Backpack size={32} weight="fill" />
                     </span>
                     <span>
@@ -47,9 +50,6 @@ const Header = () => {
                             1000
                         </span>
                     </span>
-                </div>
-                <div className="user-informations">
-            
                 </div>
             </div>
         </div>

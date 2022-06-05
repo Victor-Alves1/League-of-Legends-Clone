@@ -1,5 +1,6 @@
 .containerRight{
     width: 17vw;
+    height: 100vh;
     background-color: #010a13;
     color: #a09b8c;
     display: flex;
