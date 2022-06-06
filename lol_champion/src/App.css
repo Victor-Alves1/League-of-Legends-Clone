@@ -4,17 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #c9bc96;
+}
 .main{
-    overflow-y: hidden;
+    overflow: hidden;
     font-family: Roboto;
+    font-size: 0.8rem;
     display: flex;
     position: relative;
+    color: #c9bc96;
 }
 #bgHome{
     -moz-box-shadow: 150px 10px 200px 40px #000000 inset;
     -webkit-box-shadow: 150px 10px 200px 40px #000000 inset;
     box-shadow: 150px 10px 200px 40px #000000 inset;
-    background-image: url(../images/pride-banner-2022-ii.jpg);
+    background-image: url(../images/pride-banner-2022-iii.jpg);
     background-position: right;
     background-size: cover;
     position: relative;
@@ -28,14 +34,14 @@
 .nav-bar{
     display: flex;
     gap: 2vw;
+    align-items: flex-end;
     font-family: Lora;
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #c9bc96;
     text-transform: uppercase;
     padding-left: 2.9vw;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    height: 3vh;
 }
 .nav-bar span:hover{
     color: #dfd8ca;

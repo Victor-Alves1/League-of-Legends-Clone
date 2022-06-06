@@ -6,9 +6,11 @@
     justify-content: center;
     overflow-y: scroll;
     width: 64vw;
-    height: 89vh;
+    height: 83vh;
     color: #73736a;
     /* Works on Firefox */
     scrollbar-width: 8px;
     scrollbar-color: #785a28;
+
+    margin-top: 3vh;
 }

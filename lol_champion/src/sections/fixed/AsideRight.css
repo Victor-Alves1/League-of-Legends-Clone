@@ -1,5 +1,5 @@
 .containerRight{
-    width: 18vw;
+    width: 17vw;
     height: 100vh;
     background-color: #010a13;
     color: #a09b8c;
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 89vh;
 }
 .menu-social{
     display: flex;

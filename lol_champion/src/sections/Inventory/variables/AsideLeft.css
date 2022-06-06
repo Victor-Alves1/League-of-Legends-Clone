@@ -1,23 +1,24 @@
 .containerLeft{
     width: 19vw;
     padding-left:2.9vw;
-    padding-right: 2.9vw;
+    padding-right: 2vw;
     display: flex;
     flex-direction: column;
     gap: 15px;
     color: #9b9992;
+    margin-top: 3vh;
 }
 .mastery-numbers{
     text-transform: uppercase;
     color: #928e81;
     text-align: center;
     font-weight: 500;
-
     line-height: 1.1;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
     border: 1px solid #896f39;
     border-radius: 10px; 
     padding: 15px 0px;
+    position: relative;
 } 
 .mastery-numbers h2{
     background-image: linear-gradient(to bottom, #eed399, #896f39);
@@ -25,7 +26,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #cab17a;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 .goals-reached-mastery{
     margin: 10px 0px;
@@ -33,7 +34,7 @@
 .containerLeft input, .containerLeft select{
     background: transparent;
     border: 1px solid #785a28;
-    padding: 8px;
+    padding: 6px;
     color: #9b9992;
     outline-offset: 0;
 }
@@ -76,10 +77,11 @@
 .skins-acquired{
     border: 2px solid #785a28;
     border-radius: 100%;
-    width: 9vw;
-    height: 9vw;
+    width: 10vw;
+    height: 10vw;
     position: absolute;
-    transform: translate(25%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #020e1a;
     display: flex;
     flex-direction: column;
@@ -93,5 +95,5 @@
     margin-top: 4.5vw;
 }
 .skins-type{
-    margin-top: 5vw;
+    margin-top: 6vw;
 }

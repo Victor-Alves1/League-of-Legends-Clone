@@ -28,13 +28,13 @@ const ContainerChampions = () => {
               <BookmarkSimple weight="fill" className="masteryLevel"/>
               <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion[i]}_0.jpg`} alt="" />
               <div className="mastery">
-                <span>
-                  <FireSimple className="FireIconMastery" size={16} weight="fill"/>
+                <span className="fire-icon">
+                  <FireSimple  size={16} weight="fill"/>
                 </span> 
-                <span>0</span>
+                <span className="fire-icon">0</span>
               </div>
             </div>
-            <span>{champion[i]}</span>
+            <span className="champion-name">{champion[i]}</span>
         </span>
       )
     }

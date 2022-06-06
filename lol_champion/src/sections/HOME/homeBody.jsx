@@ -1,11 +1,11 @@
-import HomeContent from "./HomeComponents/HomeContent";
+import OverviewHome from "./HomeComponents/OverviewHome";
 import HomeNav from "./HomeComponents/HomeNav";
 
 const HomeBody = () => {
     return (
         <>
             <HomeNav/>
-            <HomeContent/>
+            <OverviewHome/>
         </>
     );
 }

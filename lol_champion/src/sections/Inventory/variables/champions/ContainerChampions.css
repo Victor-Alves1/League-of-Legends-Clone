@@ -6,11 +6,13 @@
     justify-content: center;
     overflow-y: scroll;
     width: 64vw;
-    height: 89vh;
+    height: 83vh;
     color: #73736a;
     /* Works on Firefox */
     scrollbar-width: 8px;
     scrollbar-color: #785a28;
+    
+    margin-top: 3vh;
 }
   
 .container::-webkit-scrollbar {
@@ -30,10 +32,11 @@
     position: relative;
 }
 .championPhotoAndMastery img{
-    width: 10vw;
-    height: 14.7vw;
+    width: 10.5vw;
+    height: 15vw;
     object-fit: cover;
     object-position: top;
+    border: 2px solid transparent;
 }
 .masteryLevel{
     position: absolute;
@@ -60,6 +63,10 @@
     font-size: small;
     color: #a09b8c;
 }
-.championBanner span{
+.fire-icon{
     margin: 1vh;
+}
+.champion-name{
+    margin-top: 1.2vh;
+    margin-bottom: 2vh;
 }
