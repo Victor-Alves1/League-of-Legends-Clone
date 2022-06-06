@@ -8,14 +8,16 @@
     overflow-y: hidden;
     font-family: Roboto;
     display: flex;
+    position: relative;
 }
 #bgHome{
-    -moz-box-shadow: inset 0 0 300px 30px #000000;
-    -webkit-box-shadow: inset 0 0 300px 30px #000000;
-    box-shadow: inset 0 0 300px 30px #000000;
+    -moz-box-shadow: 150px 10px 200px 40px #000000 inset;
+    -webkit-box-shadow: 150px 10px 200px 40px #000000 inset;
+    box-shadow: 150px 10px 200px 40px #000000 inset;
     background-image: url(../images/pride-banner-2022-ii.jpg);
     background-position: right;
-    /* filter: brightness(0.8); */
+    background-size: cover;
+    position: relative;
 }
 #bgDefault{
     background-image: linear-gradient(#010a13 70%, #092b3a);

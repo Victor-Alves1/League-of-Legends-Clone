@@ -1,8 +1,14 @@
 .containerRight{
-    width: 17vw;
+    width: 18vw;
     height: 100vh;
     background-color: #010a13;
     color: #a09b8c;
+}
+.account-info{
+    height: 11vh;
+    border-bottom: 2px solid #3d4143;
+}
+.friends-list{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

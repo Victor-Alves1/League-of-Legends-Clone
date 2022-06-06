@@ -1,6 +1,6 @@
 .magnum-header{
-    width: 83vw;
-    height: 10vh;
+    width: 82vw;
+    height: 11vh;
     box-sizing: border-box;
     padding: 0 0 0 2.9vw;
     display: flex;
@@ -15,13 +15,12 @@
 .logo{
     width: 45px;
 }
-.right-header{
+.left-header{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.right-header span:hover, .inventory span:hover
-{
+.link-hover:hover{
     color: #c9bea0;
     cursor: pointer;
 }
@@ -32,23 +31,20 @@
 }
 .inventory{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 .wallet{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-right: 25px;
 }
 .wallet-data{
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-right: 20px;
+    gap: 10px;
 }
 .wallet-color-text{
     color: #ddd6c1;
-}
-.user-informations{
-    width: 17vw;
-    height: 100px;
 }
