@@ -1,11 +1,16 @@
 # League_Of_Legends_Champs
 
 ## My version
-![Vite App - Pessoal — Microsoft​ Edge 26_05_2022 17_06_59](https://user-images.githubusercontent.com/101835324/170575947-5c8ede81-cd96-4fea-9a3d-daad68579967.png)
+
+![Captura da Web_6-6-2022_202630_localhost](https://user-images.githubusercontent.com/101835324/172265462-93abed6d-d6ea-418d-a71c-65a23a714877.jpeg)
 
 ## A small video of the App running
-https://user-images.githubusercontent.com/101835324/170592573-bc157626-d584-4c26-b012-d737411cc309.mp4
 
+https://user-images.githubusercontent.com/101835324/172265515-57321e28-74fe-4b7f-a31a-57aa4343dcac.mp4
 
 ## League of legends oficial version
-![League of Legends 26_05_2022 17_07_33](https://user-images.githubusercontent.com/101835324/170575955-83854d8d-886e-4e55-912a-b27dafdfbc47.png)
+
+https://user-images.githubusercontent.com/101835324/172265679-d206a31a-33a7-4dd3-9197-7fd46bfc302c.mp4
+
+
+
