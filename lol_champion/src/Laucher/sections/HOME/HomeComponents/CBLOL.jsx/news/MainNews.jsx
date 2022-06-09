@@ -1,6 +1,6 @@
-import PrincipalNews from "../../../../../../images/W_bSW84vJ4Msd.jpg"
-import SecondNews from "../../../../../../images/8wGtf0bTaNQhq.jpg"
-import ThirdNews from "../../../../../../images/escalacoes_cblol.jpg"
+import PrincipalNews from "../../../../../../../images/imagens-laucher/W_bSW84vJ4Msd.jpg"
+import SecondNews from "../../../../../../../images/imagens-laucher/8wGtf0bTaNQhq.jpg"
+import ThirdNews from "../../../../../../../images/imagens-laucher/escalacoes_cblol.jpg"
 
 
 import "./MainNews.css"

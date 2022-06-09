@@ -1,24 +1,21 @@
-import Header from "./sections/fixed/Header"
-import HomeBody from "./sections/HOME/homeBody"
-import InventoryBody from "./sections/Inventory/InventoryBody"
-import AsideRight from "./sections/fixed/AsideRight"
-
+import LoginScreen from "./LoginScreen/LoginScreen"
+import Laucher from "./Laucher/Laucher"
 import { useState } from "react"
 import "./App.css"
 
 function App() {
 
-  const [bg, setBg]=useState("bgHome")
-  const [headerNav, setHeaderNav] = useState(<HomeBody setBg={setBg}/>)
-  console.log(bg)
-    
+  const [ logIn, setLogIn ]= useState(false)
+  function ScreenState() {
+    if(logIn == false) {
+    return <LoginScreen setLogIn={setLogIn}/>
+  } else {
+    return <Laucher setLogIn={setLogIn}/>
+  }}
+
   return (
-    <div className="main"> 
-      <div id={bg}>
-        <Header setHeaderNav={setHeaderNav} setBg={setBg}/>
-        {headerNav}
-      </div>
-      < AsideRight />
+    <div className="main">
+      {ScreenState()}
     </div>
   )
 }

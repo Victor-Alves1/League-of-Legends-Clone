@@ -1,8 +1,8 @@
-import NewsOne from "../../../../../../images/cblol_split_2.jpg"
-import NewsTwo from "../../../../../../images/riot_cenario_feminino.jpg"
-import NewsThree from "../../../../../../images/TWVmQurW1sMhq.jpg"
-import NewsFour from "../../../../../../images/0CbS5wOm8YIhq.jpg"
-import NewsFive from "../../../../../../images/HEADER_RESULTADOS_FINAL_RNG_X_T1.jpg"
+import NewsOne from "../../../../../../../images/imagens-laucher/cblol_split_2.jpg"
+import NewsTwo from "../../../../../../../images/imagens-laucher/riot_cenario_feminino.jpg"
+import NewsThree from "../../../../../../../images/imagens-laucher/TWVmQurW1sMhq.jpg"
+import NewsFour from "../../../../../../../images/imagens-laucher/0CbS5wOm8YIhq.jpg"
+import NewsFive from "../../../../../../../images/imagens-laucher/HEADER_RESULTADOS_FINAL_RNG_X_T1.jpg"
 
 import "./AsideNews.css"
 

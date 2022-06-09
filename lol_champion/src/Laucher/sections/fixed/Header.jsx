@@ -2,7 +2,7 @@ import HomeBody from "../HOME/homeBody";
 import InventoryBody from "../Inventory/InventoryBody";
 
 import "./Header.css"
-import logo from "../../../images/logo.png"
+import logo from "../../../../images/imagens-laucher/logo.png"
 import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
 
 const Header = ({setHeaderNav, setBg}) => {
