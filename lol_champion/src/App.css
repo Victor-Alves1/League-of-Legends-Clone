@@ -28,6 +28,9 @@ a{
 #bgDefault{
     background-image: linear-gradient(#010a13 70%, #092b3a);
 }
+#bgDark{
+    background-color: #010a13;
+}
 .items-body{
     display: flex;
 }

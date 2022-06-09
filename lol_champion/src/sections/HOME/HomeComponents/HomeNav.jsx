@@ -1,12 +1,13 @@
+import OverviewHome from './Overview.jsx/OverviewHome';
+import CblolHome from './CBLOL.jsx/CblolHome';
 import './HomeNav.css'
-const HomeNav = () => {
+const HomeNav = ({setHomeScreen, setBg}) => {
     return (
         <div className='nav-bar'>
-            <span>Visão geral</span>
-            <span>CBLOL</span>
+            <span onClick={()=>{setHomeScreen(<OverviewHome/>), setBg('bgHome')}}>Visão geral</span>
+            <span onClick={()=>{setHomeScreen(<CblolHome/>), setBg('bgDark')}}>CBLOL</span>
             <span>Notas de atualização</span>
         </div>
-        
     );
 }
  

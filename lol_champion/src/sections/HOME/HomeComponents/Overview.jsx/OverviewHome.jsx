@@ -1,6 +1,6 @@
-import event1 from "../../../../images/tf-graves-event.jpg"
-import event2 from "../../../../images/championship-lol.jpg"
-import event3 from "../../../../images/skins-sale.jpg"
+import event1 from "../../../../../images/tf-graves-event.jpg"
+import event2 from "../../../../../images/championship-lol.jpg"
+import event3 from "../../../../../images/skins-sale.jpg"
 
 import "./OverviewHome.css"
 

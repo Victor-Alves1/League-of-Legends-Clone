@@ -8,8 +8,8 @@ import "./App.css"
 
 function App() {
 
-  const [headerNav, setHeaderNav] = useState(<HomeBody/>)
   const [bg, setBg]=useState("bgHome")
+  const [headerNav, setHeaderNav] = useState(<HomeBody setBg={setBg}/>)
   console.log(bg)
     
   return (

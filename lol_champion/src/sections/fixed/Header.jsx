@@ -12,7 +12,7 @@ const Header = ({setHeaderNav, setBg}) => {
             <img src={logo} alt="logo do league of legends" className="logo" />
             <span>jogar</span>
             <WarningCircle size={30} weight="fill" color="#037a97"/>
-            <span onClick={()=>{setHeaderNav(<HomeBody/>), setBg('bgHome')}}>Inicio</span>
+            <span onClick={()=>{setHeaderNav(<HomeBody setBg={setBg}/>), setBg('bgHome')}}>Inicio</span>
             <span>TFT</span>
             <span>Clash</span>
         </div>

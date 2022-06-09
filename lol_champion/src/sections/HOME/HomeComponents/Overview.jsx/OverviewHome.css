@@ -1,5 +1,5 @@
 .main-content-overview{
- margin-left: 2.9vw;
+ margin-left: 2.5vw;
  display: flex;
  flex-direction: column;
  gap: 20px;
@@ -43,6 +43,7 @@
 }
 .events-news{
     width: 19vw;
+    box-sizing: inherit;
 }
 .button-layout:hover, .events-news:hover{
     border: 2px solid #f3ddae;

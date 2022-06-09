@@ -1,11 +1,16 @@
-import OverviewHome from "./HomeComponents/OverviewHome";
+import OverviewHome from "./HomeComponents/Overview.jsx/OverviewHome";
 import HomeNav from "./HomeComponents/HomeNav";
+import { useState } from "react";
 
-const HomeBody = () => {
+const HomeBody = ({setBg}) => {
+    const [HomeScreen, setHomeScreen]= useState(<OverviewHome/>)
     return (
         <>
-            <HomeNav/>
-            <OverviewHome/>
+            <HomeNav 
+                setHomeScreen={setHomeScreen}
+                setBg={setBg}
+            />
+            {HomeScreen}
         </>
     );
 }

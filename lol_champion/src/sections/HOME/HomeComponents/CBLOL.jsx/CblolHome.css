@@ -1,0 +1,24 @@
+:root{
+    --cblol-bg: #010a13
+}
+.News{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+.News h1{
+    font-size: 1rem;
+}
+.News p{
+    color: #9b9992;
+}
+.main-news-container{
+    width: 60%;
+    flex: 1;
+}
+.aside-news{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

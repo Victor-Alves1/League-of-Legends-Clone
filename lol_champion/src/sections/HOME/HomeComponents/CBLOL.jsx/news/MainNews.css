@@ -1,0 +1,18 @@
+.subprincipal-news{
+    display: flex;
+    gap: 1rem;
+}
+.container-main-news{
+    position: relative;
+}
+.img-main-news{
+    width: 52vw;
+}
+.img-submain-news{
+    width: 25vw;
+}
+.news-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
