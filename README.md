@@ -11,7 +11,9 @@ For now we have Home page, the champions page and in procress the skins page.
 
 ## A small video of my version running
 
-https://user-images.githubusercontent.com/101835324/172265515-57321e28-74fe-4b7f-a31a-57aa4343dcac.mp4
+
+https://user-images.githubusercontent.com/101835324/172954653-3cf66886-86ee-470e-b0b2-cfa7c15f83a3.mp4
+
 
 ## League of legends official version
 
