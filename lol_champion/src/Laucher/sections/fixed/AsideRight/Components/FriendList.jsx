@@ -1,6 +1,6 @@
 import { UserPlus, FolderSimplePlus, ListDashes, MagnifyingGlass, Chat, ClipboardText, Microphone, MicrophoneSlash, BugBeetle } from "phosphor-react"
 import { useState } from "react";
-import "./FriendLisst.css"
+import "./FriendList.css"
 
 const FriendList = () => {
     const [microphoneON, setmicrophoneON]=useState(true)

@@ -8,7 +8,7 @@ import "./AsideNews.css"
 
 const AsideNews = () => {
     return (
-        <>
+        <div className="aside-news-right">
             <div className="aside-notice">
                 <img className="img-news" src={NewsOne} alt="Notícia sobre a volta do CBLOL" />
                 <div className="aside-notice-text">
@@ -16,6 +16,7 @@ const AsideNews = () => {
                     <p>Confira o caléndario da Segunda Etapa</p>
                 </div>
             </div>
+            <hr />
             <div className="aside-notice">
                 <img className="img-news" src={NewsTwo} alt="Notícia sobre o investimento do cenário competitivo feminino" />
                 <div className="aside-notice-text">
@@ -23,6 +24,7 @@ const AsideNews = () => {
                     <p>Saiba mais sobre a estratégia para incentivar o cenário femino de lol</p>
                 </div>
             </div>
+            <hr />
             <div className="aside-notice">
                 <img className="img-news" src={NewsThree} alt="Entrevista com o jogador Titan" />
                 <div className="aside-notice-text">
@@ -30,6 +32,7 @@ const AsideNews = () => {
                     <p>Conheça mais sobre a história do atirador da RED</p>                    
                 </div>
             </div>
+            <hr />
             <div className="aside-notice">
                 <img className="img-news" src={NewsFour} alt="Entrevista com o jogador Keria" />
                 <div className="aside-notice-text">
@@ -37,6 +40,7 @@ const AsideNews = () => {
                     <p>Conheça mais sobre o Suporte da T1</p> 
                 </div>
             </div>
+            <hr />
             <div className="aside-notice">
                 <img className="img-news" src={NewsFive} alt="Notícia sobre a RNG, que conseguiu ganhar da SKT1 no último jogo" />
                 <div className="aside-notice-text">
@@ -44,7 +48,8 @@ const AsideNews = () => {
                     <p>Grande Final foi decidida no quinto jogo e teve domínio total do lado azul</p>  
                 </div>
             </div>
-        </>
+            <p><a href="">Ver todas as notícias</a></p>
+        </div>
     );
 }
  

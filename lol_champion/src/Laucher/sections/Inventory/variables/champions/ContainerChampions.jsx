@@ -7,7 +7,6 @@ const ContainerChampions = () => {
     const [championData, setChampionData]=useState([])
     const [champion, setChampion]=useState([])
 
-    useEffect(()=>{
     const basicFetch = async ()=>{
         const req = await fetch ("http://ddragon.leagueoflegends.com/cdn/12.9.1/data/en_US/champion.json")
         const dado = await req.json()
@@ -16,9 +15,8 @@ const ContainerChampions = () => {
         setChampion(Object.keys(dados))
         
     }
-      basicFetch().catch(e=>console.log(e))
-    },[])
-    console.log(champion)
+    basicFetch().catch(e=>console.log(e))
+
     let splashArts=[]
 
     for(let i=0; i<=158; i++){

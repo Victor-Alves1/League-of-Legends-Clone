@@ -1,0 +1,23 @@
+.aside-news-right{
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aside-notice{
+    display: flex;
+    gap: 1vw;
+}
+.aside-notice-text{
+    width: 12vw;
+}
+.img-news{
+    width: 13vw;
+    height: 14vh;
+    object-fit: cover;
+}
+hr{
+    height:1px;
+	border-width:0;
+    background-color: rgb(53, 53, 53);
+}
