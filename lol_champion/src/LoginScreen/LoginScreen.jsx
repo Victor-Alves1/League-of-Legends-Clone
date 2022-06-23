@@ -5,8 +5,9 @@ import googleIcon from "../../images/imagens-loginscreen/google-icon.png"
 import appleIcon from "../../images/imagens-loginscreen/apple-icon.png"
 
 import "./LoginScreen.css"
+import { Link } from "react-router-dom"
 
-const LoginScreen = ({setLogIn}) => {
+const LoginScreen = () => {
     return (
         <div className="LoginScreen">
             <div className="aside-login-signup">
@@ -18,12 +19,13 @@ const LoginScreen = ({setLogIn}) => {
                     id="idName" 
                     placeholder="Escolha algum nome"
                 />
+            <Link to={`/home`}>
                 <input 
                     type="button" 
                     value="Acessar Conta" 
                     placeholder="Entrar!"
-                    onClick={()=>setLogIn(true)}
                 />
+            </Link>
                 <div className="login-with-another-platform">
                     <div className="icons-login icon-blue">
                         <img src={facebookIcon} alt="Botão para logar pela conta Facebook" />

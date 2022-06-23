@@ -1,9 +1,7 @@
-import HomeBody from "../../HOME/homeBody";
-import InventoryBody from "../../Inventory/InventoryBody";
-
 import "./Header.css"
 import logo from "../../../../../images/imagens-laucher/logo.png"
 import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
+import { Link } from "react-router-dom";
 
 const Header = ({setHeaderNav, setBg}) => {
     return (
@@ -12,7 +10,9 @@ const Header = ({setHeaderNav, setBg}) => {
             <img src={logo} alt="logo do league of legends" className="logo" />
             <span>jogar</span>
             <WarningCircle size={30} weight="fill" color="#037a97"/>
-            <span onClick={()=>{setHeaderNav(<HomeBody setBg={setBg}/>), setBg('bgHome')}}>Inicio</span>
+            <Link to={"/home"}>
+                <span>Inicio</span>
+            </Link>
             <span>TFT</span>
             <span>Clash</span>
         </div>
@@ -22,9 +22,11 @@ const Header = ({setHeaderNav, setBg}) => {
                     <span>
                         <UserCircle size={26} weight="fill" />
                     </span>
-                    <span onClick={()=>{setHeaderNav(<InventoryBody/>), setBg('bgDefault')}}>
-                        <Backpack size={26} weight="fill" />
-                    </span>
+                    <Link to={"/inventory"}>
+                        <span>
+                            <Backpack size={26} weight="fill" />
+                        </span>
+                    </Link>
                     <span>
                         <Wrench size={26} weight="fill" />
                     </span>

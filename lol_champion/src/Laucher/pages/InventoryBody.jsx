@@ -1,7 +1,7 @@
-import ContainerChampions from "./variables/champions/ContainerChampions"
-import AsideLeftChampions from "./variables/champions/AsideLeftChampions"
+import ContainerChampions from "../sections/Inventory/variables/champions/ContainerChampions"
+import AsideLeftChampions from "../sections/Inventory/variables/champions/AsideLeftChampions"
 
-import ItemsNav from "./inventory_fixed/ItemsNav"
+import ItemsNav from "../sections/Inventory/inventory_fixed/ItemsNav"
 
 import { useState } from "react"
 

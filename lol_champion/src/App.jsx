@@ -1,23 +1,14 @@
-import LoginScreen from "./LoginScreen/LoginScreen"
-import Laucher from "./Laucher/Laucher"
-import { useState } from "react"
 import "./App.css"
+import { BrowserRouter } from "react-router-dom"
+import { Router } from "./Router"
 
-function App() {
-
-  const [ logIn, setLogIn ]= useState(false)
-  function ScreenState() {
-    if(logIn == false) {
-    return <LoginScreen setLogIn={setLogIn}/>
-  } else {
-    return <Laucher setLogIn={setLogIn}/>
-  }}
+export function App() {
 
   return (
     <div className="main">
-      {ScreenState()}
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
     </div>
   )
 }
-
-export default App
