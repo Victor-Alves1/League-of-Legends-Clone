@@ -3,7 +3,7 @@ import logo from "../../../../../images/imagens-laucher/logo.png"
 import { WarningCircle, UserCircle, Backpack, Wrench, HardDrives, Coins, FlowerLotus, DiamondsFour } from "phosphor-react"
 import { Link } from "react-router-dom";
 
-const Header = ({setHeaderNav, setBg}) => {
+const Header = () => {
     return (
     <div className="magnum-header">
         <div className="left-header link-hover">

@@ -4,32 +4,36 @@ import InventoryBody from "./pages/InventoryBody"
 import AsideRight from "./sections/fixed/AsideRight/AsideRight"
 
 import { useParams } from "react-router-dom"
+import { useState } from "react"
+
 import "./Laucher.css"
 
 export const Laucher = () => {
+    const [bg, setBg] = useState("bgHome")
+
     const slug = useParams()
+
     function bodyContent(props){
         switch(props){
             case "home":
                 return <HomeBody />
       
             case "inventory":
-              <InventoryBody />
-            break
-      
+                return <InventoryBody />
+
             default:
-              <HomeBody />
-            break
+                return <HomeBody />
           }
     }
+
     
 
     return (
         <> 
-            <div id="bgDefault">
+            <div id={bg}>
                 <Header />
                 {
-                 bodyContent(slug)
+                 bodyContent(slug.slug)
                 }
             </div>
             < AsideRight />
