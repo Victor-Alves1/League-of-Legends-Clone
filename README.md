@@ -1,9 +1,9 @@
 # League_Of_Legends_Champs
 
-Officially, this is my favourite project. It's a clone of league of legends launcher, a game what I play for 10 years.
+This is my favourite project. It's a clone of league of legends launcher, a game what I play for 10 years.
 The propouse is replicate all the interfaces
 
-For now we have Home page, the champions page and in procress the skins page.  
+For now we have Home page, the champions page and in progress the skins page.  
 
 ## My version
 
